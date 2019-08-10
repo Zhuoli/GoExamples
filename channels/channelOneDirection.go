@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/*
+  channel can be used for single direction
+*/
 func main() {
 	jobs := make(chan int, 100)
 	results := make(chan int, 100)
